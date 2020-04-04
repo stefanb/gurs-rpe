@@ -1,10 +1,12 @@
 # GURS meje občin v Sloveniji / Municipalities borders in Slovenia
 
-Občine v Sloveniji 2020
+[![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
+
+
 
 ## Vir podatkov
 
-Geodetska Uprava Republike Slovenije
+Geodetska Uprava Republike Slovenije, 2020
 Dovoljenje: CC-BY 2.5
 https://egp.gu.gov.si/egp
 
