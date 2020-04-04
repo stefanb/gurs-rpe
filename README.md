@@ -7,7 +7,7 @@ Rezultati / Results:
 * [Interaktivni zemljevid / Interactive Map](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 * [Datoteka GeoJSON / GeoJSON file](Obcine-epsg4326.geojson)
 
-## Vir podatkov
+## Vir podatkov / Source of data
 
 Geodetska Uprava Republike Slovenije / The Surveying and Mapping Authority of Republic of Slovenia, 2020
 
