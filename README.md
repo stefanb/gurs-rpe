@@ -2,7 +2,7 @@
 
 [![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
-
+[Zemljevid / Map](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646), [GeoJSON](Obcine-epsg4326.geojson)
 
 ## Vir podatkov
 
