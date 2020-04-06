@@ -1,21 +1,23 @@
-# GURS meje občin v Sloveniji / Municipalities borders in Slovenia
+# GURS meje občin v Sloveniji / Municipality borders in Slovenia
 
 [![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
-Rezultati / Results:
+## Rezultati / Results:
 
 * [Interaktivni zemljevid / Interactive Map](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 * [Datoteka GeoJSON / GeoJSON file](Obcine-epsg4326.geojson)
 
 ## Vir podatkov / Source of data
 
-Geodetska Uprava Republike Slovenije / The Surveying and Mapping Authority of Republic of Slovenia, 2020
+[Geodetska Uprava Republike Slovenije](https://www.gov.si/drzavni-organi/organi-v-sestavi/geodetska-uprava/) / [The Surveying and Mapping Authority of Republic of Slovenia](https://www.gov.si/en/state-authorities/bodies-within-ministries/surveying-and-mapping-authority/)
 
 Register prostorskih enot / Register od Spatial Units
 
-Dovoljenje / Licence: CC-BY 2.5
+Datum / Date: 2020-04-05
 
-https://egp.gu.gov.si/egp ([English](https://egp.gu.gov.si/egp/?lang=en))
+Dovoljenje / Licence: [CC-BY 2.5](http://creativecommons.org/licenses/by/2.5/si/legalcode) - [Pogoji uporabe](https://www.e-prostor.gov.si/fileadmin/struktura/preberi_me.pdf) / [Terms and conditions](https://www.e-prostor.gov.si/fileadmin/struktura/ANG/General_terms.pdf)
+
+[Vir podatkov](https://egp.gu.gov.si/egp) / [Source of data](https://egp.gu.gov.si/egp/?lang=en)
 
 ## Tehnične podrobnosti / Technical details
 
