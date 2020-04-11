@@ -1,2 +1,5 @@
 RPE_PE*
 .DS_Store
+data/downloaded
+data/temp
+CREDENTIALS-egp.gu.gov.si.txt
