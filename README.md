@@ -25,6 +25,6 @@ Ukaz za pretvorbo podatkov / Data conversion command:
 
 ```bash
 $ SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" \
-  -f "GeoJSON" ./data/OB.geojson ./data/downloaded/OB \
+  -f "GeoJSON" ./data/OB.geojson ./data/temp/OB \
   -nln Obcine-epsg4326 -lco ENCODING=UTF8 -lco RFC7946=YES -lco WRITE_BBOX=YES
 ```
