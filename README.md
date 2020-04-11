@@ -5,7 +5,7 @@
 ## Rezultati / Results:
 
 * [Interaktivni zemljevid / Interactive Map](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
-* [Datoteka GeoJSON / GeoJSON file](Obcine-epsg4326.geojson)
+* [Datoteka GeoJSON / GeoJSON file](data/OB.geojson)
 
 ## Vir podatkov / Source of data
 
@@ -25,6 +25,6 @@ Ukaz za pretvorbo podatkov / Data conversion command:
 
 ```bash
 $ SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" \
-  -f "GeoJSON" ./Obcine-epsg4326.geojson ./RPE_PE/OB \
+  -f "GeoJSON" ./data/OB.geojson ./data/downloaded/OB \
   -nln Obcine-epsg4326 -lco ENCODING=UTF8 -lco RFC7946=YES -lco WRITE_BBOX=YES
 ```
