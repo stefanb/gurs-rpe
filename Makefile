@@ -20,8 +20,10 @@ geojson:
 	do \
 		DIRNAME=$$(dirname $$shpFile); \
 		BASENAME=$$(basename $$shpFile .shp); \
-		echo -n "$$BASENAME:	"; \
+		echo -n "$$BASENAME GeoJSON:	"; \
 		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "GeoJSON" data/$$BASENAME.geojson $$DIRNAME -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String; \
+		echo -n "$$BASENAME CSV:    	"; \
+		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -lco WRITE_BOM=YES; \
 	done
 
 .PHONY: clean

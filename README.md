@@ -6,20 +6,20 @@
 
 [Interaktivni zemljevid / Interactive Map](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
-| Opis / Description  | Datoteka / File |
-|---  |---  |
-| Občine / Municipalities | [OB.geojson](data/OB.geojson) |
-| Naselja / Settlements | [NA.geojson](data/NA.geojson) |
-| Upravne enote / Administrative units  | [UE.geojson](data/UE.geojson) |
-| Statistične regije / Statistical regions  | [SR.geojson](data/SR.geojson) |
-| Ožji deli občin / Municipality subdivisions | [ODO.geojson](data/ODO.geojson) |
-| Ulice / Streets  | [UL.geojson](data/UL.geojson) |
-| Poštni okoliši / Postal districts | [PT.geojson](data/PT.geojson) |
-| Šolski okoliši / School districts  | [SL.geojson](data/SL.geojson) |
-| Enote državnozborskih volitev / Voting districts | [VDV.geojson](data/VDV.geojson) |
-| Enote lokalnih volitev / Voting districts | [VLV.geojson](data/VLV.geojson) |
-| Območne geodetske uprave / Administrative units  | [OG.geojson](data/OG.geojson) |
-| Prostorski okoliši / Spatial districts | [PO.geojson](data/PO.geojson) |
+| Opis / Description                               | GeoJSON                         | CSV                     |
+|--------------------------------------------------|---------------------------------|-------------------------|
+| Občine / Municipalities                          | [OB.geojson](data/OB.geojson)   | [OB.csv](data/OB.csv)   |
+| Naselja / Settlements                            | [NA.geojson](data/NA.geojson)   | [NA.csv](data/NA.csv)   |
+| Upravne enote / Administrative units             | [UE.geojson](data/UE.geojson)   | [UE.csv](data/UE.csv)   |
+| Statistične regije / Statistical regions         | [SR.geojson](data/SR.geojson)   | [SR.csv](data/SR.csv)   |
+| Ožji deli občin / Municipality subdivisions      | [ODO.geojson](data/ODO.geojson) | [ODO.csv](data/ODO.csv) |
+| Ulice / Streets                                  | [UL.geojson](data/UL.geojson)   | [UL.csv](data/UL.csv)   |
+| Poštni okoliši / Postal districts                | [PT.geojson](data/PT.geojson)   | [PT.csv](data/PT.csv)   |
+| Šolski okoliši / School districts                | [SL.geojson](data/SL.geojson)   | [SL.csv](data/SL.csv)   |
+| Enote državnozborskih volitev / Voting districts | [VDV.geojson](data/VDV.geojson) | [VDV.csv](data/VDV.csv) |
+| Enote lokalnih volitev / Voting districts        | [VLV.geojson](data/VLV.geojson) | [VLV.csv](data/VLV.csv) |
+| Območne geodetske uprave / Administrative units  | [OG.geojson](data/OG.geojson)   | [OG.csv](data/OG.csv)   |
+| Prostorski okoliši / Spatial districts           | [PO.geojson](data/PO.geojson)   | [PO.csv](data/PO.csv)   |
 
 <!-- 
 https://www.e-prostor.gov.si/fileadmin/struktura/sifrant_rpe_enot.htm 
