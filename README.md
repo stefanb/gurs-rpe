@@ -1,4 +1,4 @@
-# GURS meje občin v Sloveniji / Municipality borders in Slovenia
+# GURS - Register prostorskih enot / Register of spatial units
 
 [![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
@@ -22,10 +22,12 @@
 | Prostorski okoliši / Spatial districts           | [PO.geojson](data/PO.geojson)   | [PO.csv](data/PO.csv)   |
 
 <!-- 
+| Hišne številke / House numbers  | / |
+
 https://www.e-prostor.gov.si/fileadmin/struktura/sifrant_rpe_enot.htm 
 -->
 
-Atributi so opisani v [RPE_struktura.pdf](https://www.e-prostor.gov.si/fileadmin/struktura/RPE_struktura.pdf) / Attributes are described in [RPE_struktura.pdf](https://www.e-prostor.gov.si/fileadmin/struktura/RPE_struktura.pdf)
+Atributi so opisani v [RPE_struktura.pdf](https://www.e-prostor.gov.si/fileadmin/struktura/RPE_struktura.pdf) / Attributes are described in [RPE_struktura.pdf](https://www.e-prostor.gov.si/fileadmin/struktura/RPE_struktura.pdf) (only in slovenian).
 
 ## Surovi podatki / Raw data
 
