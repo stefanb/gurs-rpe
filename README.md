@@ -20,10 +20,9 @@
 | Enote lokalnih volitev / Voting districts        | [VLV.geojson](data/VLV.geojson) | [VLV.csv](data/VLV.csv) |
 | Območne geodetske uprave / Administrative units  | [OG.geojson](data/OG.geojson)   | [OG.csv](data/OG.csv)   |
 | Prostorski okoliši / Spatial districts           | [PO.geojson](data/PO.geojson)   | [PO.csv](data/PO.csv)   |
+| Hišne številke / House numbers                   | / (too big)                     | [HS.csv](data/HS.csv)   |
 
 <!-- 
-| Hišne številke / House numbers  | / |
-
 https://www.e-prostor.gov.si/fileadmin/struktura/sifrant_rpe_enot.htm 
 -->
 
