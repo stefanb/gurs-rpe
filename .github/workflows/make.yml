@@ -51,5 +51,5 @@ jobs:
         ls -lah data/downloaded/
         ls -lah data/
         git status
-        git diff | head -100
-        git diff | tail -100
+        git diff --stat
+        git diff data/SR.csv
