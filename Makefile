@@ -23,7 +23,7 @@ geojson:
 		echo -n "$$BASENAME GeoJSON:	"; \
 		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "GeoJSON" data/$$BASENAME.geojson $$DIRNAME -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String; \
 		echo -n "$$BASENAME CSV:    	"; \
-		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -lco WRITE_BOM=YES -lco GEOMETRY=AS_XY; \
+		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED -lco GEOMETRY=AS_XY; \
 	done
 
 .PHONY: clean
