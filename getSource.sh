@@ -131,6 +131,7 @@ function login() {
 # pass numeric file id as parameter
 function downloadFile() {
 	wget "${commonWgetParams[@]}" \
+		-q --show-progress \
 		--content-disposition -N \
 		"${baseUrl}download-file.html?id=$1&format=10&d96=1"
 }
