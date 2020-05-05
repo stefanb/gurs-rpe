@@ -33,11 +33,11 @@ function extractDownloaded() {
 	$STATCMD -c '%y' "${TempDest}OB/OB.shp" | cut -d' ' -f1 >"${TempDest}timestamp.txt"
 }
 
-countTooOld=2
+countTooOld=3
 
-if [ -f "${DownloadDest}RPE_PE.ZIP" ] && [ -f "${DownloadDest}RPE_UL.ZIP" ]; then
+if [ -f "${DownloadDest}RPE_PE.ZIP" ] && [ -f "${DownloadDest}RPE_UL.ZIP" ] && [ -f "${DownloadDest}RPE_HS.ZIP" ]; then
 	#check age of existing files
-	countTooOld=$(find "${DownloadDest}RPE_PE.ZIP" "${DownloadDest}RPE_UL.ZIP" -mmin +${maxAge} | wc -l)
+	countTooOld=$(find "${DownloadDest}RPE_PE.ZIP" "${DownloadDest}RPE_UL.ZIP" "${DownloadDest}RPE_HS.ZIP" -mmin +${maxAge} | wc -l)
 fi
 
 # exit if all are newer than max age
@@ -144,6 +144,9 @@ downloadFile 105
 
 #RPE_UL.ZIP
 downloadFile 106
+
+#RPE_HS.ZIP
+downloadFile 107
 
 # Clean up secrets so they are not cached
 rm -f "${DownloadDest}cookies.txt"
