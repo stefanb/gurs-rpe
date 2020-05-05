@@ -25,6 +25,19 @@ jobs:
     - name: Install gdal
       run: sudo apt-get install gdal-bin
 
+    - name: Cache EGP downloads
+      uses: actions/cache@v1
+      env:
+        cache-name: cache-egp-downloads
+      with:
+        path: data/downloaded/
+        key: ${{ runner.os }}-build-${{ env.cache-name }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+
+
     # Runs a single command using the runners shell
     - name: Run make
       env:
