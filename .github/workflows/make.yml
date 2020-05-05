@@ -48,5 +48,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
+        ls -lah data/downloaded/
+        ls -lah data/
         git status
-        git diff
+        git diff | head -100
+        git diff | tail -100
