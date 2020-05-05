@@ -1,5 +1,7 @@
 # GURS - Register prostorskih enot / Register of spatial units
 
+![CI](https://github.com/stefanb/gurs-obcine/workflows/CI/badge.svg)
+
 [![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
 ## Rezultati / Results:
@@ -20,7 +22,7 @@
 | Enote lokalnih volitev / Voting districts        | [VLV.geojson](data/VLV.geojson) | [VLV.csv](data/VLV.csv) |
 | Območne geodetske uprave / Administrative units  | [OG.geojson](data/OG.geojson)   | [OG.csv](data/OG.csv)   |
 | Prostorski okoliši / Spatial districts           | [PO.geojson](data/PO.geojson)   | [PO.csv](data/PO.csv)   |
-| Hišne številke / House numbers                   | / (too big)                     | [HS.csv](data/HS.csv)   |
+| Hišne številke / House numbers                   |                                 | [HS.csv](data/HS.csv)   |
 
 <!-- 
 https://www.e-prostor.gov.si/fileadmin/struktura/sifrant_rpe_enot.htm 
