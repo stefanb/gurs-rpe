@@ -22,10 +22,10 @@ geojson:
 		BASENAME=$$(basename $$shpFile .shp); \
 		echo -n "$$BASENAME GeoJSON:	"; \
 		rm "data/$$BASENAME.geojson"; \
-		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "GeoJSON" data/$$BASENAME.geojson $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String; \
+		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "GeoJSON" data/$$BASENAME.geojson $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -dialect sqlite -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String; \
 		echo -n "$$BASENAME CSV:    	"; \
 		rm "data/$$BASENAME.csv"; \
-		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED -lco GEOMETRY=AS_XY; \
+		SHAPE_ENCODING=CP1250 ogr2ogr -progress -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -dialect sqlite -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED -lco GEOMETRY=AS_XY; \
 	done
 
 .PHONY: clean
