@@ -20,6 +20,7 @@ geojson:
 	do \
 		DIRNAME=$$(dirname $$shpFile); \
 		BASENAME=$$(basename $$shpFile .shp); \
+		export OGR_WKT_PRECISION=9; \
 		echo -n "$$BASENAME GeoJSON:	"; \
 		rm "data/$$BASENAME.geojson"; \
 		SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "GeoJSON" data/$$BASENAME.geojson $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -dialect sqlite -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String -nln $${BASENAME}; \
