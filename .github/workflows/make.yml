@@ -68,4 +68,5 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'Data update'
+        files: data/
         name: GURS RPE update bot
