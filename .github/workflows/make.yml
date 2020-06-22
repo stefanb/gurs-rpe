@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Daily update
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -13,7 +13,7 @@ on:
     branches: [ master ]
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '15 6 * * *'
+    - cron:  '15 4 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -62,7 +62,8 @@ jobs:
         git diff data/SR.csv
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: push
+    - name: Publish changes to git
+      if: github.ref == 'refs/heads/master'
       uses: github-actions-x/commit@v2.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
