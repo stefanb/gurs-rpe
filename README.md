@@ -36,7 +36,7 @@ Shapefiles as obtained from the source are mirrored and published in this reposi
 
 ## Vir podatkov / Source of data
 
-[Geodetska Uprava Republike Slovenije](https://www.gov.si/drzavni-organi/organi-v-sestavi/geodetska-uprava/) / [The Surveying and Mapping Authority of Republic of Slovenia](https://www.gov.si/en/state-authorities/bodies-within-ministries/surveying-and-mapping-authority/)
+[Geodetska Uprava Republike Slovenije](https://www.gov.si/drzavni-organi/organi-v-sestavi/geodetska-uprava/) / [Surveying and Mapping Authority of the Republic of Slovenia](https://www.gov.si/en/state-authorities/bodies-within-ministries/surveying-and-mapping-authority/)
 
 Register prostorskih enot / Register od Spatial Units
 
