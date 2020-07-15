@@ -42,7 +42,9 @@ Register prostorskih enot / Register od Spatial Units
 
 Datum / Date: 2020-04-05
 
-Dovoljenje / Licence: [CC-BY 2.5](http://creativecommons.org/licenses/by/2.5/si/legalcode) - [Pogoji uporabe](https://www.e-prostor.gov.si/fileadmin/struktura/preberi_me.pdf) / [Terms and conditions](https://www.e-prostor.gov.si/fileadmin/struktura/ANG/General_terms.pdf)
+Dovoljenje / Licence: [CC-BY 4.0 SL](https://creativecommons.org/licenses/by/4.0/deed.sl) / [CC-BY 4.0 EN](https://creativecommons.org/licenses/by/4.0/deed)
+
+[Splošno pogoji uporabe](https://www.e-prostor.gov.si/fileadmin/struktura/preberi_me.pdf) / [General terms and conditions](https://www.e-prostor.gov.si/fileadmin/struktura/ANG/General_terms.pdf)
 
 [Vir podatkov](https://egp.gu.gov.si/egp) / [Source of data](https://egp.gu.gov.si/egp/?lang=en)
 
