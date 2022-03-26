@@ -5,7 +5,7 @@ TMP = $(DATAFOLDER)temp/
 TS = $$(cat $(TMP)timestamp.txt)
 TSYYYY = $$(cat $(TMP)timestamp.txt | cut -b 1-4)
 
-all: download geojson
+all: download geojson split
 
 .PHONY: download
 download:

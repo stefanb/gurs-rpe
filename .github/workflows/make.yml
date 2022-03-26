@@ -47,14 +47,17 @@ jobs:
 
 
     # Runs a single command using the runners shell
-    - name: Run make
+    - name: Run make download
       env:
         username: ${{ secrets.egpUsername }}
         password: ${{ secrets.egpPassword }}
-      run: make
+      run: make download
+
+    - name: Run make geojson
+      run: make geojson
 
     - name: Run split.sh
-      run: ./split.sh data/temp
+      run: make split
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
