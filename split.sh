@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 export OGR_WKT_PRECISION=9
 TMP="${1}"
@@ -17,12 +17,6 @@ function split() {
 	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "CSV" "data/${shp}/${BASENAME}_${enota}.csv" "${DIRNAME}" -sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED
 
 	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "GeoJSON" "data/${shp}/${BASENAME}_${enota}.geojson" "${DIRNAME}" -sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String -nln "${BASENAME}_${enota}" -lco DESCRIPTION="${descriptionCollection}"
-	# mkdir -p "data/${shp}/${enota}"
-	# SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "GeoJSON" "data/${shp}/${BASENAME}_${enota}.geojson" "${DIRNAME}" -sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String -nln "${BASENAME}_${enota}" -lco DESCRIPTION="${descriptionSingle}"
-
-	# for /f "skip=1 usebackq tokens=1 delims=," %%a in ("ne_10m_admin_0_countries.csv") do (
-    #   ogr2ogr -f "ESRI Shapefile" -where "SOVEREIGNT = '%%a'" "out/ne_10m_admin_0_countries_%%a.shp" ne_10m_admin_0_countries.shp )
-
 }
 
 split VDV VE "Državnozborske volilne enote"  "Državnozborska volilna enota"

@@ -51,7 +51,7 @@ jobs:
       env:
         username: ${{ secrets.egpUsername }}
         password: ${{ secrets.egpPassword }}
-      run: locale && make
+      run: make
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
