@@ -12,7 +12,7 @@ function split() {
 	shpFile=$(find "${TMP}" -name "$shp.shp")
 	DIRNAME=$(dirname "$shpFile")
 	BASENAME=$(basename "$shpFile" .shp)
-	echo "Extracting ${enota} from ${shp}..."
+	echo "${descriptionCollection}: Extracting ${enota} from ${shp}..."
 	mkdir -p "data/${shp}"
 	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" \
 		-f "CSV" "data/${shp}/${BASENAME}_${enota}.csv" "${DIRNAME}" \
