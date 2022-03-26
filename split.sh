@@ -14,9 +14,17 @@ function split() {
 	BASENAME=$(basename "$shpFile" .shp)
 	echo "${descriptionCollection}: Extracting ${enota} from ${shp}..."
 	mkdir -p "data/${shp}"
-	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "CSV" "data/${shp}/${BASENAME}_${enota}.csv" "${DIRNAME}" -sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED
+	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" \
+		-f "CSV" "data/${shp}/${BASENAME}_${enota}.csv" "${DIRNAME}" \
+		-sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite \
+		-lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED
 
-	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "GeoJSON" "data/${shp}/${BASENAME}_${enota}.geojson" "${DIRNAME}" -sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite -lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String -nln "${BASENAME}_${enota}" -lco DESCRIPTION="${descriptionCollection}"
+	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" \
+		-f "GeoJSON" "data/${shp}/${BASENAME}_${enota}.geojson" "${DIRNAME}" \
+		-sql "SELECT * FROM ${BASENAME} WHERE ENOTA='${enota}' ORDER BY ${BASENAME}_MID" -dialect sqlite \
+		-lco RFC7946=YES -lco WRITE_BBOX=YES -mapFieldType Date=String \
+		-nln "${BASENAME}_${enota}" -lco DESCRIPTION="${descriptionCollection}"
+
 }
 
 split VDV VE "RHLFvmF2bm96Ym9yc2tlIHZvbGlsbmUgZW5vdGU=" "RHLFvmF2bm96Ym9yc2thIHZvbGlsbmEgZW5vdGE="
