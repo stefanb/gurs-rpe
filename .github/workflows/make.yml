@@ -56,7 +56,7 @@ jobs:
     - name: Run make geojson
       run: make geojson
 
-    - name: Run split.sh
+    - name: Run make split
       run: make split
 
     # Runs a set of commands using the runners shell
