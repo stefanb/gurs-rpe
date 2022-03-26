@@ -6,13 +6,13 @@ TMP="${1}"
 function split() {
 	shp="$1"
 	enota="$2"
-	descriptionCollection=$(echo "$3"| base64 --decode)
-	# descriptionSingle=$(echo "$4"| base64 --decode)
+	descriptionCollection="$3"
+	# descriptionSingle="$4"
 
 	shpFile=$(find "${TMP}" -name "$shp.shp")
 	DIRNAME=$(dirname "$shpFile")
 	BASENAME=$(basename "$shpFile" .shp)
-	echo "${descriptionCollection}: Extracting ${enota} from ${shp}..."
+	echo "Extracting ${enota} from ${shp}..."
 	mkdir -p "data/${shp}"
 	SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" \
 		-f "CSV" "data/${shp}/${BASENAME}_${enota}.csv" "${DIRNAME}" \
@@ -27,13 +27,13 @@ function split() {
 
 }
 
-split VDV VE "RHLFvmF2bm96Ym9yc2tlIHZvbGlsbmUgZW5vdGU=" "RHLFvmF2bm96Ym9yc2thIHZvbGlsbmEgZW5vdGE="
-split VDV VO "RHLFvmF2bm96Ym9yc2tpIHZvbGlsbmkgb2tyYWpp" "RHLFvmF2bm96Ym9yc2tpIHZvbGlsbmkgb2tyYWo="
-split VDV VD "RHLFvmF2bm96Ym9yc2thIHZvbGnFocSNYQ=="     "RHLFvmF2bm96Ym9yc2tvIHZvbGnFocSNZQ=="
+split VDV VE "Državnozborske volilne enote"  "Državnozborska volilna enota"
+split VDV VO "Državnozborski volilni okraji" "Državnozborski volilni okraj"
+split VDV VD "Državnozborska volišča"        "Državnozborsko volišče"
 
-split VLV LE "TG9rYWxuZSB2b2xpbG5lIGVub3Rl" "TG9rYWxuYSB2b2xpbG5hIGVub3Rh"
-split VLV LV "TG9rYWxuYSB2b2xpxaHEjWE="     "TG9rYWxubyB2b2xpxaHEjWU="
+split VLV LE "Lokalne volilne enote" "Lokalna volilna enota"
+split VLV LV "Lokalna volišča"       "Lokalno volišče"
 
-split ODO CM "TWVzdG5lIMSNZXRydGk="     "TWVzdG5hIMSNZXRydA=="
-split ODO CK "S3JhamV2bmUgc2t1cG5vc3Rp" "S3JhamV2bmEgc2t1cG5vc3Q="
-split ODO CV "VmHFoWtlIMSNZXRydGk="     "VmHFoWthIMSNZXRydA=="
+split ODO CM "Mestne četrti"      "Mestna četrt"
+split ODO CK "Krajevne skupnosti" "Krajevna skupnost"
+split ODO CV "Vaške četrti"       "Vaška četrt"
