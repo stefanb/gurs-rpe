@@ -5,7 +5,7 @@ TMP = $(DATAFOLDER)temp/
 TS = $$(cat $(TMP)timestamp.txt)
 TSYYYY = $$(cat $(TMP)timestamp.txt | cut -b 1-4)
 
-all: download geojson
+all: download geojson split
 
 .PHONY: download
 download:
@@ -30,6 +30,10 @@ geojson:
 		SHAPE_ENCODING=CP1250 ogr2ogr -t_srs "EPSG:4326" -f "CSV" data/$$BASENAME.csv $$DIRNAME -sql "SELECT * FROM $$BASENAME ORDER BY $${BASENAME}_MID" -dialect sqlite -lco WRITE_BOM=YES -lco STRING_QUOTING=IF_NEEDED -lco GEOMETRY=AS_XY; \
 		echo `wc -l data/$${BASENAME}.csv`; \
 	done
+
+.PHONY: split
+split:
+	./split.sh $(TMP)
 
 .PHONY: clean
 clean:
