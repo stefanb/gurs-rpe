@@ -53,6 +53,9 @@ jobs:
         password: ${{ secrets.egpPassword }}
       run: make
 
+    - name: Run split.sh
+      run: ./split.sh data/temp
+
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
