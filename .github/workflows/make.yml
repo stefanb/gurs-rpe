@@ -71,7 +71,7 @@ jobs:
     # Git commit + push, see https://github.com/github-actions-x/commit
     - name: Publish changes to git
       if: github.ref == 'refs/heads/master'
-      uses: github-actions-x/commit@v2.6
+      uses: github-actions-x/commit@v2.8
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
