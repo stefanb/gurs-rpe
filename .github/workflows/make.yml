@@ -34,7 +34,7 @@ jobs:
         ogr2ogr --version
 
     - name: Cache EGP downloads
-      uses: actions/cache@v1
+      uses: actions/cache@v3
       env:
         cache-name: cache-egp-downloads
       with:
