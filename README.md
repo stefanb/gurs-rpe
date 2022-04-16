@@ -22,9 +22,9 @@
 | Poštni okoliši / Postal districts                |                    | [PT.geojson](data/PT.geojson)             | [PT.csv](data/PT.csv)             |
 | Šolski okoliši / School districts                |                    | [SL.geojson](data/SL.geojson)             | [SL.csv](data/SL.csv)             |
 | Enote državnozborskih volitev / Voting districts |                    | [VDV.geojson](data/VDV.geojson)           | [VDV.csv](data/VDV.csv)           |
-| Enote državnozborskih volitev / Voting districts | volilne enote      | [VDV_VE.geojson](data/VDV/VDV_VE.geojson) | [VDV.csv](data/VDV/VDV_VE.csv)    |
-| Enote državnozborskih volitev / Voting districts | volilni okraji     | [VDV_VO.geojson](data/VDV/VDV_VO.geojson) | [VDV.csv](data/VDV/VDV_VO.csv)    |
-| Enote državnozborskih volitev / Voting districts | volišča            | [VDV_VD.geojson](data/VDV/VDV_VD.geojson) | [VDV.csv](data/VDV/VDV_VD.csv)    |
+| Enote državnozborskih volitev / Voting districts | volilne enote      | [VDV_VE.geojson](data/VDV/VDV_VE.geojson) | [VDV_VE.csv](data/VDV/VDV_VE.csv) |
+| Enote državnozborskih volitev / Voting districts | volilni okraji     | [VDV_VO.geojson](data/VDV/VDV_VO.geojson) | [VDV_VO.csv](data/VDV/VDV_VO.csv) |
+| Enote državnozborskih volitev / Voting districts | volišča            | [VDV_VD.geojson](data/VDV/VDV_VD.geojson) | [VDV_VD.csv](data/VDV/VDV_VD.csv) |
 | Enote lokalnih volitev / Voting districts        |                    | [VLV.geojson](data/VLV.geojson)           | [VLV.csv](data/VLV.csv)           |
 | Enote lokalnih volitev / Voting districts        | volilne enote      | [VLV_LE.geojson](data/VLV/VLV_LE.geojson) | [VLV_LE.csv](data/VLV/VLV_LE.csv) |
 | Enote lokalnih volitev / Voting districts        | volišča            | [VLV_LV.geojson](data/VLV/VLV_LV.geojson) | [VLV_LV.csv](data/VLV/VLV_LV.csv) |
