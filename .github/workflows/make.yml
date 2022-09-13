@@ -63,7 +63,7 @@ jobs:
       run: |
         if [[ $(git diff --stat) != '' ]]; then
           echo 'git dirty, updating timestamp'
-          date +%s > "timestamp.txt"
+          date +%s > "data/timestamp.txt"
         else
           echo 'no git changes, no timestamp update needed'
         fi
