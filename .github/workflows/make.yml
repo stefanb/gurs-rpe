@@ -61,12 +61,12 @@ jobs:
 
     - name: update timestamp if needed
       run: |
-      if [[ $(git diff --stat) != '' ]]; then
-        echo 'git dirty, updating timestamp'
-        date +%s > "timestamp.txt"
-      else
-        echo 'no git changes, no timestamp update needed'
-      fi
+        if [[ $(git diff --stat) != '' ]]; then
+          echo 'git dirty, updating timestamp'
+          date +%s > "timestamp.txt"
+        else
+          echo 'no git changes, no timestamp update needed'
+        fi
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
