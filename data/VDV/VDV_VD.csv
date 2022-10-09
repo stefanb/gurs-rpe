@@ -846,7 +846,7 @@ VD,17588826,103024,"Športni park Vrbnje, Vrbnje",,2.53,2022/09/23,2022/09/23,10
 VD,17588834,103025,"Gasilski dom Srednja Dobrava, Srednja Dobrava 7",,4.2,2011/04/28,2011/04/28,103025,,V,439379,130887
 VD,17588842,103026,"Prostor KS Otok, Zgornji Otok 6 a",,3.04,2014/04/08,2014/04/08,103026,,V,438750,134787
 VD,17590219,102005,"INFOCENTER TRIGLAVSKA ROŽA BLED, Ljubljanska c.27",,1.78,2017/07/17,2017/07/17,102005,,V,432229,136558
-VD,17601687,101001,"Vrtec Rateče, Rateče 18, Rateče",,26.53,2022/09/27,2022/09/27,101001,,V,401518,151780
+VD,17601687,101001,"Vrtec Rateče, Rateče 18, Rateče",,26.53,2022/10/07,2022/10/07,101001,,V,401518,151780
 VD,17687964,109001,"Rudnik Žirovski vrh TODRAŽ, Todraž 1, Gorenja vas",,11.28,2022/09/27,2022/09/27,109001,,V,433929,103647
 VD,17687972,109006,"Kulturni dom LUČINE, Lučine 11a, Gorenja vas",,15.23,2018/05/17,2018/05/17,109006,,V,437199,104697
 VD,17687999,109009,"Šubičeva hiša,Poljane nad Škofjo Loko 70,Poljane",,25.61,2022/09/27,2022/09/27,109009,,V,438269,106017
@@ -1700,9 +1700,9 @@ VD,19227707,15036,"Vaško gasilski dom Dol.Bistrica, Dol.Bistrica 76",,6.86,2022
 VD,19227715,15038,"Gasilski dom Gor.Bistrica, Gor.Bistica 116a",,6.71,2022/09/01,2022/09/02,801009,,V,597001,157863
 VD,19227723,47021,"Športno medgeneracijski center, Kobilje 16a",,19.73,2022/09/01,2022/09/02,801010,,V,606732,172512
 VD,19227731,59001,"Zadružni dom Pince-Marof, Pince-Marof 30",Pincemajor-szövetkezeti otthon,13.47,2022/09/01,2022/09/02,801011,,V,615561,154022
-VD,19227740,59003,"Vaško-gasilski dom Dolina, Dolina,Glavna ul.29",Völgyifalu-falu-és tűzoltóotth,6.69,2022/09/01,2022/09/02,801013,,V,615471,156202
+VD,19227740,59003,"Vaško-gasilski dom Dolina, Dolina,Glavna ul.29",Völgyifalu-Falu-és tűzoltóotthon,6.69,2022/10/07,2022/10/07,801013,,V,615471,156202
 VD,19227758,59005,"Petišovci I, Gasilski dom, Rudarska ul.24",Petesháza I-tűzoltóotthon,4.34,2022/09/01,2022/09/02,801015,,V,612353,155075
-VD,19227766,59008,"Večnam. objekt v Lendav.Goricah,Lend. Gorice 222",Hosszúfaluhegy-Többcélú létesí,4.59,2022/10/04,2022/10/04,801018,,V,612451,160442
+VD,19227766,59008,"Večnam. objekt v Lendav.Goricah,Lend. Gorice 222",Hosszúfaluhegy-Többcélú létesítmény a Lendvahegyen,4.59,2022/10/07,2022/10/07,801018,,V,612451,160442
 VD,19227774,59009,"Vaški dom Dolga vas, Opekarniška c.2",HOSSZÚFALU-FALUOTTHON,9.95,2022/09/01,2022/09/02,801019,,V,610958,160942
 VD,19227782,59011,"Lendava I - DOŠ I Lendava, Kranjčeva ulica 44",Lendva I-I.Sz. Lendvai KÁI,0.56,2022/09/01,2022/09/02,801021,,V,611991,158552
 VD,19227804,59013,"Lendava III-DOŠ II Lendava, Ul. Heroja Mohorja 1",Lendvai III-II.Sz. Lendvai KÁI,2.18,2022/10/04,2022/10/04,801023,,V,611301,159182
@@ -1724,7 +1724,7 @@ VD,19227979,15035,"Vaški dom Žižki, Žižki 48b",,3.13,2022/09/01,2022/09/02,
 VD,19227987,15037,"Gasilski dom Sred.Bistrica, Sred.Bistrica 52a",,2.97,2022/09/01,2022/09/02,801008,,V,597911,157573
 VD,19227995,59002,"Gasilski dom Pince, Pince, Lendavska c.45",Pince-tűzoltóotthon,2.29,2022/09/01,2022/09/02,801012,,V,616791,155122
 VD,19228002,59004,"Vaški dom Čentiba, Čentiba, Glavna ul.92",Csente-faluotthon,7.33,2022/09/01,2022/09/02,801014,,V,614071,157792
-VD,19228029,59007,"Večnamenski objekt, Lendavske Gorice 222",Lendvahegy-Többcélú létesítmén,2.85,2022/10/04,2022/10/04,801017,,V,611881,159602
+VD,19228029,59007,"Večnamenski objekt, Lendavske Gorice 222",Lendvahegy-Többcélú létesítmény,2.85,2022/10/07,2022/10/07,801017,,V,611881,159602
 VD,19228037,59010,"Vaški dom Trimlini, Trimlini 33",HÁRMASMALOM - faluotthon,5,2022/09/01,2022/09/02,801020,,V,611642,156938
 VD,19228045,59014,"Mostje - NK Mostje, Mostje bš",Hidvég-NK Hidvég,8.54,2022/10/04,2022/10/04,801024,,V,608257,164093
 VD,19228053,59017,"Vaško gasilski dom Žitkovci, Žitkovci 32",ZSITKÓC-FALU-ÉS TŰZOLTÓOTTHON,5.08,2022/09/01,2022/09/02,801027,,V,605242,167912
@@ -1734,7 +1734,7 @@ VD,19228088,59025,"Stara šola Kapca, Kapca, Glavna ul.6",Kapca-régi iskola,5.9
 VD,19228096,86043,"Odranci I, Vaški dom Odranci, Panonska ul.33",,2.79,2022/09/01,2022/09/02,801037,,V,598192,161663
 VD,19228100,86045,"Odranci III, Vaški dom Odranci, Panonska ul.33",,0.95,2022/09/01,2022/09/02,801039,,V,597732,161453
 VD,19228118,132041,"Vaško gasilski dom Renkovci, Renkovci 68",,4.52,2022/09/01,2022/09/02,801042,,V,598898,167361
-VD,19228126,59012,"Lendava II-Center za zaš.in reševanje,Glavna u.96",Lendva II-Védelmi és Mentési K,2.93,2022/09/01,2022/09/02,801022,,V,611181,159592
+VD,19228126,59012,"Lendava II-Center za zaš.in reševanje,Glavna u.96",Lendva II-Védelmi és Mentési Központ,2.93,2022/10/07,2022/10/07,801022,,V,611181,159592
 VD,19228134,15028,"Center za zaščito in reševanje,Velika Polana 109a",,7.61,2022/09/02,2022/09/02,801001,,V,603262,160023
 VD,19228142,132042,"Turnišče I, Vaški dom,Turnišče, Ul.Št. Kovača 73",,4.24,2022/09/01,2022/09/02,801043,,V,601273,165266
 VD,19242048,156004,"Dobrovnik II, DOŠ Dobrovnik,Dobrovnik 266j",Dobronak II-Dobronaki KÁI,11.81,2022/09/01,2022/09/02,801044,,V,603322,169742
@@ -1874,7 +1874,7 @@ VD,19449033,56076,"Krajevna dvorana Kuzma, Kuzma 24",,3.63,2022/08/31,2022/09/05
 VD,19449041,56080,"Gasilski dom Trdkova, Trdkova 22",,5.01,2022/08/31,2022/09/05,804055,,V,586013,190983
 VD,19449050,78005,"Vaško-gasilski dom Krnci, Krnci 20a",,2.62,2022/08/31,2022/09/05,804058,,V,592442,177903
 VD,19449068,78008,"Vaško-gasilski dom Sebeborci, Sebeborci 45",,7.82,2022/08/31,2022/09/05,804060,,V,591712,175013
-VD,19449076,78011,"Vaško-gasilski dom Čikečka vas,Čikečka vas 20",Tűzoltóotthon Csekefa,4.27,2022/08/31,2022/09/05,804063,,V,600912,176562
+VD,19449076,78011,"Vaško-gasilski dom Čikečka vas,Čikečka vas 20",Falu-és tűzoltóotthon Csekefa,4.27,2022/10/07,2022/10/07,804063,,V,600912,176562
 VD,19449084,78013,"Vaški dom Motvarjevci, Motvarjevci 47",Faluotthon Szentlászló,10.18,2022/08/31,2022/09/05,804065,,V,603133,174923
 VD,19449092,78016,"Vaško-gasilski dom Ratkovci, Ratkovci 20a",,2.77,2022/08/31,2022/09/05,804068,,V,596542,180163
 VD,19449106,78019,"Vaško-gasilski dom Lončarovci,Lončarovci 39a",,3.4,2022/08/31,2022/09/05,804071,,V,596862,181613
@@ -2269,7 +2269,7 @@ VD,20108509,602019,"Prosvetni dom Podhosta,Podhosta bš,8350 D.Toplice",,14.89,2
 VD,20108525,602022,"GD Ratež, Ratež 47, 8321 Brusnice",,6.7,2022/09/13,2022/09/13,602022,,V,518269,75425
 VD,20108533,602050,"GD Reber, Reber 16, 8360 Žužemberk",,5.93,2022/09/13,2022/09/13,602050,,V,494509,79405
 VD,20108541,602057,"E.Škufca-Sela pri Hinjah,S.pri Hinjah11,8362Hinje",,9.46,2022/09/13,2022/09/13,602057,,V,489959,74595
-VD,20108550,603012,"GD Straža, Novomeška cesta 1, 8351 Straža",,6.46,2022/09/05,2022/09/05,603012,,V,507759,74145
+VD,20108550,603012,"GD Straža, Novomeška c. 1, 8351 Straža",,6.46,2022/10/07,2022/10/07,603012,,V,507759,74145
 VD,20108568,602008,"KD Šmarjeta-dvorana,Šmarjeta 66, 8220 Šm. Toplice",,10.58,2022/09/13,2022/09/13,602008,,V,518359,83895
 VD,20108576,602029,"ZDD Uršna sela, Vaška c. 4 , 8323  Uršna sela",,25.58,2022/09/13,2022/09/13,602029,,V,509068,62265
 VD,20108584,603032,"OŠ Vavta vas, Vavta vas 1, 8351 Straža",,3.78,2022/09/05,2022/09/05,603032,,V,507167,71214
@@ -2285,7 +2285,7 @@ VD,20108720,607043,"GD Grmovlje, Grmovlje 28",,8.44,2022/09/21,2022/09/21,607043
 VD,20108738,607040,"GD Zagrad, Zagrad 36",,11.51,2022/09/21,2022/09/21,607040,,V,519189,87015
 VD,20108746,602036,"B. Gorišek-Dolenja Brezovica, Dolenja Brezovica 1",,2.5,2022/09/13,2022/09/13,602036,,V,526059,76535
 VD,20108754,602055,"GD Hinje, Hinje 38, 8362 Hinje",,15.16,2022/09/13,2022/09/13,602055,,V,490379,69805
-VD,20108762,603023,"OŠ Grm, Trdinova ulica 7, 8000 Novo mesto",,1.18,2022/09/05,2022/09/05,603023,,V,513519,73205
+VD,20108762,603023,"OŠ Grm, Trdinova ul. 7, 8000 Novo mesto",,1.18,2022/10/07,2022/10/07,603023,,V,513519,73205
 VD,20108789,603028,"Matjaževa domačija, Paha 3, 8222 Otočec",,7.46,2022/09/05,2022/09/05,603028,,V,514779,80115
 VD,20108797,602025,"GD Stopiče, Stopiče 3, 8322 Stopiče",,14.57,2022/09/13,2022/09/13,602025,,V,516529,70705
 VD,20108819,602032,"OŠ Žužemberk, Baragova c. 1, 8360 Žužemberk",,15.56,2022/09/13,2022/09/13,602032,,V,492929,77395
@@ -2324,7 +2324,7 @@ VD,20109181,602049,"KC P. Trubarja Šentjernej, Trubarjeva c. 13",,2.03,2022/09/
 VD,20109190,607041,"GD Dolenje Dole, Dolenje Dole 24b",,4.93,2022/09/21,2022/09/21,607041,,V,521899,89325
 VD,20109203,607045,"GD Tomažja vas, Tomažja vas 35",,2.01,2022/09/21,2022/09/21,607045,,V,523059,82205
 VD,20109211,603002,"Stara OŠ, Dolenje Karteljevo 29, 8000 Novo mesto",,4.99,2022/09/05,2022/09/05,603002,,V,511129,80955
-VD,20109220,603013,"GD Dolenje Kamence,Dol. Kamence 9,8000 Novo mesto",,6.58,2022/09/05,2022/09/05,603013,,V,511259,75815
+VD,20109220,603013,"GD Dolenje Kamence,Dol. Kamence 3,8000 Novo mesto",,6.58,2022/10/07,2022/10/07,603013,,V,511259,75815
 VD,20109238,602056,"OŠ Prevole, Prevole 32, 8362 Hinje",,10.76,2022/09/13,2022/09/13,602056,,V,489549,71635
 VD,20109246,602053,"GD Šmihel pri Žužemberku, Šm. pri  Žužemberku 38",,12.67,2022/09/13,2022/09/13,602053,,V,491899,78915
 VD,20109254,602043,"GD Groblje pri Prekopi, Groblje pri Prekopi 36",,6.75,2022/09/13,2022/09/13,602043,,V,529479,79955
