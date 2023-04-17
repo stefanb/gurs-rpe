@@ -28,7 +28,6 @@
 | Enote lokalnih volitev / Voting districts        |                    | [Map](https://geojson.io/#id=github:stefanb/gurs-rpe/blob/master/data/VLV.geojson)        | [VLV.geojson](data/VLV.geojson)           | [VLV.csv](data/VLV.csv)           |
 | Enote lokalnih volitev / Voting districts        | volilne enote      | [Map](https://geojson.io/#id=github:stefanb/gurs-rpe/blob/master/data/VLV/VLV_LE.geojson) | [VLV_LE.geojson](data/VLV/VLV_LE.geojson) | [VLV_LE.csv](data/VLV/VLV_LE.csv) |
 | Enote lokalnih volitev / Voting districts        | volišča            | [Map](https://geojson.io/#id=github:stefanb/gurs-rpe/blob/master/data/VLV/VLV_LV.geojson) | [VLV_LV.geojson](data/VLV/VLV_LV.geojson) | [VLV_LV.csv](data/VLV/VLV_LV.csv) |
-| Območne geodetske uprave / Administrative units  |                    | [Map](https://geojson.io/#id=github:stefanb/gurs-rpe/blob/master/data/OG.geojson)         | [OG.geojson](data/OG.geojson)             | [OG.csv](data/OG.csv)             |
 | Prostorski okoliši / Spatial districts           |                    | [Map](https://geojson.io/#id=github:stefanb/gurs-rpe/blob/master/data/PO.geojson)         | [PO.geojson](data/PO.geojson)             | [PO.csv](data/PO.csv)             |
 | Hišne številke / House numbers                   |                    |                                                                                           |                                           |  [HS.csv](data/HS.csv)            |
 
