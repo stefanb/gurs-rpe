@@ -30,6 +30,7 @@ jobs:
 
     - name: Install gdal
       run: |
+        sudo apt-get update
         sudo apt-get install gdal-bin
         ogr2ogr --version
 
