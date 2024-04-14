@@ -53,7 +53,7 @@ Dovoljenje / Licence: [CC-BY 4.0 SL](https://creativecommons.org/licenses/by/4.0
 
 [Splošno pogoji uporabe](https://www.e-prostor.gov.si/fileadmin/struktura/preberi_me.pdf) / [General terms and conditions](https://www.e-prostor.gov.si/fileadmin/struktura/ANG/General_terms.pdf)
 
-[Vir podatkov](https://egp.gu.gov.si/egp) / [Source of data](https://egp.gu.gov.si/egp/?lang=en)
+[Vir podatkov](https://ipi.eprostor.gov.si/jgp/data) / [Source of data](https://ipi.eprostor.gov.si/jgp/data?lang=en)
 
 ## Tehnične podrobnosti / Technical details
 

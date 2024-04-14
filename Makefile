@@ -5,12 +5,25 @@ TMP = $(DATAFOLDER)temp/
 TS = $$(cat $(TMP)timestamp.txt)
 TSYYYY = $$(cat $(TMP)timestamp.txt | cut -b 1-4)
 
-all: download geojson split
+all: download hscsv #TODO: geojson split
 
 .PHONY: download
 download:
 	mkdir -p $(TMP) || true
 	./getSource.sh $(DLFOLDER) $(TMP)
+
+.PHONY: hscsv
+hscsv:
+	rm -rf "$(DATAFOLDER)HS.csv" || true
+	mkdir -p $(DATAFOLDER)
+
+	# https://gdal.org/drivers/vector/csv.html
+
+	ogr2ogr \
+		-s_srs "EPSG:3794" -f "CSV" -oo X_POSSIBLE_NAMES=E -oo Y_POSSIBLE_NAMES=N \
+		-t_srs "EPSG:4326" -lco STRING_QUOTING=IF_NEEDED -lco GEOMETRY=AS_XY \
+		"$(DATAFOLDER)HS.csv" \
+		"$(wildcard $(TMP)RPE_HS/KN_SLO_NASLOVI_HS_naslovi_hs_????????.csv)"
 
 .PHONY: geojson
 geojson:
@@ -37,5 +50,6 @@ split:
 
 .PHONY: clean
 clean:
-	rm -r $(TMP)
-	rm -r $(DLFOLDER)
+	rm -rf $(TMP)
+	rm -rf $(DLFOLDER)
+

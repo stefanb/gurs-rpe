@@ -34,10 +34,10 @@ jobs:
         sudo apt-get install gdal-bin
         ogr2ogr --version
 
-    - name: Cache EGP downloads
+    - name: Cache JGP downloads
       uses: actions/cache@v4
       env:
-        cache-name: cache-egp-downloads
+        cache-name: cache-jgp-downloads
       with:
         path: data/downloaded/
         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
@@ -49,16 +49,16 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run make download
-      env:
-        username: ${{ secrets.egpUsername }}
-        password: ${{ secrets.egpPassword }}
       run: make download
 
-    - name: Run make geojson
-      run: make geojson
+    - name: Run make Housenumber cvs
+      run: make hscsv
 
-    - name: Run make split
-      run: make split
+    # - name: Run make geojson
+    #   run: make geojson
+
+    # - name: Run make split
+    #   run: make split
 
     - name: update timestamp if needed
       run: |
