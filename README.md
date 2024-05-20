@@ -1,6 +1,6 @@
 # GURS - Register prostorskih enot / Register of spatial units
 
-[![Daily update](https://github.com/stefanb/gurs-obcine/workflows/Daily%20update/badge.svg)](https://github.com/stefanb/gurs-obcine/actions)
+[![Daily update](https://github.com/stefanb/gurs-rpe/workflows/Daily%20update/badge.svg)](https://github.com/stefanb/gurs-rpe/actions)
 
 [![Zemljevid / Map](preview.jpg)](https://umap.openstreetmap.fr/sl/map/obcine-v-sloveniji_440646)
 
