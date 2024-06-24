@@ -24,12 +24,19 @@ echo Running on: "${machine}", using $SEDCMD and $STATCMD commands
 function downloadFile() {
 	mkdir -p "${DownloadDest}"
 	echo "Downloading ${DownloadDest}$3..."
+	urlWithToken=$(curl \
+		--compressed \
+		--fail \
+		--progress-bar \
+		"https://ipi.eprostor.gov.si/jgp-service-api/display-views/groups/$1/composite-products/$2/file?filterParam=DRZAVA&filterValue=1" | jq -r ".url")
+
+	echo "urlWithToken: $urlWithToken"
 	curl \
 		--compressed \
 		--output "${DownloadDest}$3" \
 		--fail \
 		--progress-bar \
-		"https://ipi.eprostor.gov.si/jgp-service-api/display-views/groups/$1/composite-products/$2/file?filterParam=DRZAVA&filterValue=1"
+		"$urlWithToken" || (echo "Failed to download $3" && exit 1)
 }
 
 function extractDownloaded() {
