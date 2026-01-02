@@ -35,7 +35,7 @@ jobs:
         ogr2ogr --version
 
     - name: Cache JGP downloads
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       env:
         cache-name: cache-jgp-downloads
       with:
